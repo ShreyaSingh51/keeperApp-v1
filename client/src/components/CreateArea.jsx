@@ -55,7 +55,7 @@ function CreateArea(props){
                title:"",
             content:""}
         })
-        window.location = "/notes";}
+        window.location = "/";}
 
     return (
     <div>
