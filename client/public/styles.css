@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+  }
+
+
+html {
+    font-family: "Montserrat", sans-serif;
+    min-height: 100%;
+    position:relative;
+  }
+
+
+body {
+    background:#eee;
+    padding:0 16px;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+  }
+
+
+header{
+    background-color:#f5ba13;
+    margin:auto -16px;
+    padding:16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    
+}
+
+
+header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+
+footer{
+    position:absolute;
+    text-align: center;
+    bottom:0;
+    height:2.5rem;
+    width:100%;
+    padding-top: 20px;;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+
+footer p{
+    color: #ccc;
+}
+
+.notes{
+    background:#fff;
+    padding:10px;
+    border-radius:7px;
+    margin:16px;
+    margin-left: 20px;
+    width:300px;
+    height: 180px;
+    box-shadow: 0 2px 5px #ccc;
+    margin-bottom: 40px;
+    float: left;
+    overflow-y:auto;
+    
+}
+
+.notes h1{
+    font-size:1.1em;
+    margin-bottom:6px;
+    overflow:hidden;
+}
+
+
+
+.notes button{
+    position: relative;
+    margin-right:10px;
+    float:right;
+    border:none;
+    outline:none;
+    background: rgb(255, 255, 255);
+    color:#f5ba13;
+    width: 36px;
+    height: 36px;
+    cursor:pointer;
+}
+
+form.createNote{
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.createNote input,
+form.createNote textarea{width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  width: 100%;
+  overflow:visible;
+}
+
+form.createNote button{
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border-radius: 50%;
+  border:none;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor:pointer;
+  outline: none;
+}
+
+form.login,
+form.register{
+  margin:100px auto;
+  padding:5%;
+  text-align: center;
+  width:390px;
+}
+
+
+
+form.login input,
+form.register input{
+  width:100%;
+  border:none;
+  border-radius:7px;
+  padding:3px;
+  margin-bottom:15px;
+  font-size:1.1em;
+  height:50px;
+  text-align: center;
+  background:#fff;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.login button,
+form.register button,
+.signUp Link button{
+  width:60%;
+  border:none;
+  border-radius:7px;
+  padding:3px;
+  margin-top:15px;
+  font-size:1.2em;
+  height:40px;
+  text-align: center;
+  background:#f8c22b;
+  color:#fff;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.login p{
+  margin-top:20%;
+  font-size:1.2em;
+  font-family:cursive ;
+
+}
+
+.signUp{
+  width:100%;
+  text-align: center;
+  margin:30px auto;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.signUp h1{
+  font-family: "McLaren", cursive;
+  font-weight: 700;
+  font-size:5em;
+  color:rgb(34, 33, 33);
+  text-shadow:2px 2px 4px rgb(216, 211, 211);
+}
+
+.sp{
+  font-family: "McLaren", cursive;
+  font-size: 1.3em;
+  color:rgb(34,33,33);
+  padding:4% auto;
+}
+.signUp button{
+  width:10%;
+  border:none;
+  border-radius:7px;
+  padding:3px  25px;
+  margin-top:30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:1.2em;
+  height:40px;
+  text-align: center;
+  background:#f8c22b;
+  color:#fff;
+  box-shadow: 0 1px 5px rgba(214, 210, 210, 0.726);
+  
+}
+
